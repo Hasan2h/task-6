@@ -1,0 +1,32 @@
+.BA-react-slider{
+    width: 90vw;
+    margin: 0px auto;
+}
+.BA-react-slider .box{
+    width: 100%;
+    height: 100%;
+}
+.BA-react-slider .box img{
+    width: 100%;
+    height: auto;
+}
+.slick-prev , .slick-next{
+    background: #000 !important;
+    width: 50px !important;
+    height: 50px !important;
+    z-index: 3;
+    border-radius: 50%;
+}
+.BA-react-slider .slick-slide {
+    opacity: 0.3;
+    transition: opacity 0.3s;
+  }
+  
+  .BA-react-slider .slick-center {
+    opacity: 1;
+  }
+  @media screen and (max-width:700px) {
+    .slick-prev , .slick-next{
+        display: none !important;
+    }
+  }

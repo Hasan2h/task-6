@@ -1,0 +1,8 @@
+.ContactCompany .card{
+    text-align: start;
+    background-color: gainsboro;
+    margin: 0px .5rem;
+}
+.ContactCompany .the-body{
+    width: 100%;
+}

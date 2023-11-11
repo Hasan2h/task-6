@@ -1,0 +1,16 @@
+.WELCOME-TO-PHONO-SUPPORT-WERE-HERE-TO-HELP img{ 
+    width: 100px;
+    height: 100px;
+  }
+  .WELCOME-TO-PHONO-SUPPORT-WERE-HERE-TO-HELP .card{
+    height: 240px;
+  }
+  .WELCOME-TO-PHONO-SUPPORT-WERE-HERE-TO-HELP .btn{
+  background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    top: -20px;
+  }

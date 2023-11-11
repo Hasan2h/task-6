@@ -1,0 +1,15 @@
+.slider-api{
+    width: 80%;
+    margin: 0px auto;
+}
+.slider-api .card {
+    width: auto;
+    height: 400px;
+  }
+  
+  .slider-api .card-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background-size: cover;
+  }

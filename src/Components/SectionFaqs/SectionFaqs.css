@@ -1,0 +1,30 @@
+.accordion-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .accordion-button::after{
+        display: none !important;
+    }
+    .accordion{
+        width: 60%;
+        margin: 0px auto;
+        --bs-accordion-bg:none;
+        --bs-accordion-border-color:none;
+        --bs-accordion-active-color: black;
+        --bs-accordion-active-bg: none;
+        --bs-accordion-btn-focus-box-shadow:none;
+        --bs-accordion-border-radius:none;
+        --bs-accordion-inner-border-radius:none;
+    }
+    .accordion-button:focus {
+        z-index: 3;
+        border-color: black;
+    }
+    .accordion-button , .accordion-item{
+        color: black;
+    }
+    .accordion-button{
+        font-size: 1.3rem;
+        border-bottom: 1px solid black;
+    }
